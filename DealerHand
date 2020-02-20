@@ -8,6 +8,15 @@ namespace Blackjack
 
 
 
-    
+    Console.WriteLine("dealers hand is:");
+            //isRunning = false;
+            //Console.WriteLine("Your cards are:");
+            Console.WriteLine($"{deck[0].DisplayCard()} has a value of {deck[0].GetCardValue()}");
+            dealerHand.Add(deck[0]);
+            deck.RemoveAt(0);
+
+            Console.WriteLine($"{deck[0].DisplayCard()} ");
+            dealerHand.Add(deck[0]);
+            deck.RemoveAt(0);
   }
 }
